@@ -1,0 +1,14 @@
+target
+.project
+.settings/
+*.classpath
+.idea/
+*.iml
+bin/
+application-local.properties
+release.properties
+pom.xml.releaseBackup
+.DS_Store
+.factorypath
+logs/
+t.env
