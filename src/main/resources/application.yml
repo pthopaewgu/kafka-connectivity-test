@@ -1,6 +1,6 @@
 spring:
   kafka:
-    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    bootstrap-servers: https://pkc-kngm02.us-west-2.aws.confluent.cloud:9092
     consumer:
       group-id: demo-consumer-group
       auto-offset-reset: earliest
